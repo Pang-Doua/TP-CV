@@ -1,0 +1,94 @@
+.contenu-cv {
+    display: grid;
+    grid-template-areas: "left-column right-column right-column"; /*separer droite et gauche*/
+    width: 600px;
+    margin: auto;
+    box-shadow: 0 0 15px 1px pink;
+    background-color: honeydew;
+}
+img {
+    margin-top: 20px;
+    margin-left: 8px;
+    width: 200px;
+    border-radius: 200px;
+}
+/* font-family */
+p, h1, #nom-poste, #prenom, .licence-informatique, #nom-stage, ul, #competence, .pass-bac {
+    font-family: 'Tilt Neon', cursive;
+}
+
+/* Cote Gauche */
+.gauche {
+    margin-left: 20px;
+    text-align: center;
+}
+.contenu-contact, .contenu-langues, .contenu-loisirs {
+    background-color: antiquewhite;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contenu-competences {
+    background-color: antiquewhite;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Cote Droit */
+
+.right {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+#nom-poste {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 20px;
+
+    
+}
+#prenom {
+    position: absolute;
+    margin-top: -20px;
+}
+
+.formations {
+    text-align: center;
+    margin-top: 143px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.contenu-formations, .contenu-stage {
+    text-align: center;
+}
+
+.licence-informatique, #nom-stage{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+#experience-pro {
+    text-align: center;
+    margin-top: 40px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ul{
+    margin-top: 30px;
+}
+
+
